@@ -1,0 +1,47 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #0a0a0a;
+    color: white;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  .luxury-button {
+    background: linear-gradient(to right, #eab308, #ca8a04);
+    color: black;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+    transform: scale(1);
+  }
+  
+  .luxury-button:hover {
+    background: linear-gradient(to right, #ca8a04, #a16207);
+    transform: scale(1.05);
+  }
+  
+  .luxury-button-secondary {
+    border: 2px solid #eab308;
+    color: #eab308;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+  }
+  
+  .luxury-button-secondary:hover {
+    background: #eab308;
+    color: black;
+    transform: scale(1.05);
+  }
+}
