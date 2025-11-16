@@ -123,7 +123,7 @@ const Portfolio = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gold-500 mb-4">
-            Our Work Speaks for Itself
+            Our Portfolio
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Projects we've completed for clients across the USA, Canada, UK, and Australia.

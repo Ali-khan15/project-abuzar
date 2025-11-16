@@ -44,7 +44,8 @@ const Services = () => {
         
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gold-500 mb-4">
-            Trusted By Industry Leaders
+              Our Work Speaks for Itself
+
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             We're proud to have worked with some of the biggest names in the business
