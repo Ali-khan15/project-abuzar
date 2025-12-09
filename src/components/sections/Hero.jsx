@@ -1,10 +1,20 @@
 import React from "react";
 import heroImage from "../../assets/image/hero.jpg";
+import logo from "../../assets/image/logo.svg";
 
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen bg-black flex items-center px-4 py-8">
       <div className="max-w-7xl mx-auto w-full">
+        {/* Logo Section */}
+        <div className="mb-8 lg:mb-12">
+          <img
+            src={logo}
+            alt="YAM Estimation Logo"
+            className="h-12 md:h-16 lg:h-20 w-auto"
+          />
+        </div>
+
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           <div className="flex justify-center w-full order-1 lg:order-2 lg:justify-end">
             <div className="w-full max-w-full lg:max-w-2xl">
@@ -32,7 +42,7 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 lg:gap-6 relative z-10 justify-center lg:justify-start">
+            <div className="flex flex-col sm:flex-row gap-4 lg:gap-6 justify-center lg:justify-start">
               <a
                 href="https://calendly.com/yamestimation/30min"
                 target="_blank"
@@ -45,7 +55,7 @@ const Hero = () => {
                 href="https://calendly.com/yamestimation/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border-2 border-gold-500 text-gold-400 hover:bg-gold-500 hover:text-black font-bold py-3 px-6 lg:py-5 lg:px-10 rounded-lg text-base lg:text-xl transition-all duration-300 transform hover:scale-105 lg:absolute lg:left-64 lg:-top-4 lg:z-20 w-full sm:w-auto text-center"
+                className="border-2 border-gold-500 text-gold-400 hover:bg-gold-500 hover:text-black font-bold py-3 px-6 lg:py-5 lg:px-10 rounded-lg text-base lg:text-xl transition-all duration-300 transform hover:scale-105 w-full sm:w-auto text-center"
               >
                 View Sample Estimates
               </a>

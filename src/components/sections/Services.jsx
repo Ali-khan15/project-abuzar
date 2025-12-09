@@ -84,7 +84,7 @@ const Services = () => {
           }
         }
         .animate-slideSimple {
-          animation: slideSimple 45s linear infinite;
+          animation: slideSimple 15s linear infinite;
         }
         .animate-slideSimple:hover {
           animation-play-state: paused;
