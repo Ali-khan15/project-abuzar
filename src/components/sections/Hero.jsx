@@ -8,11 +8,6 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto w-full">
         {/* Logo Section */}
         <div className="mb-8 lg:mb-12">
-          <img
-            src={logo}
-            alt="YAM Estimation Logo"
-            className="h-12 md:h-16 lg:h-20 w-auto"
-          />
         </div>
 
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
