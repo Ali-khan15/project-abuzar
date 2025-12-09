@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../../assets/image/logo.svg';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -31,15 +32,13 @@ const Footer = () => {
           <div className="space-y-4">
             <button 
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-              className="flex items-center space-x-3 hover:opacity-80 transition-opacity duration-300 text-left"
+              className="hover:opacity-80 transition-opacity duration-300"
             >
-              <div className="w-12 h-12 bg-gold-500 rounded-lg flex items-center justify-center">
-                <span className="text-black font-bold text-xl">Y</span>
-              </div>
-              <div>
-                <h2 className="text-white font-bold text-2xl">YAM Estimation</h2>
-                <p className="text-gold-400 text-sm">Professional Construction Estimating Services</p>
-              </div>
+              <img 
+                src={logo} 
+                alt="YAM Estimation Logo" 
+                className="h-16 md:h-20 w-auto"
+              />
             </button>
             
             <p className="text-gray-400 text-sm max-w-md">

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import logo from '../../assets/image/logo.svg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,15 +36,13 @@ const Header = () => {
           {/* Logo - Clickable to scroll to top */}
           <button 
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="flex items-center space-x-3 hover:opacity-80 transition-opacity duration-300"
+            className="hover:opacity-80 transition-opacity duration-300"
           >
-            <div className="w-10 h-10 bg-gold-500 rounded-lg flex items-center justify-center">
-              <span className="text-black font-bold text-lg">Y</span>
-            </div>
-            <div>
-              <h1 className="text-white font-bold text-xl">YAM Estimation</h1>
-              <p className="text-gold-400 text-xs">Professional Estimating Services</p>
-            </div>
+            <img 
+              src={logo} 
+              alt="YAM Estimation Logo" 
+              className="h-12 md:h-18 w-auto"
+            />
           </button>
 
           {/* Desktop Navigation */}

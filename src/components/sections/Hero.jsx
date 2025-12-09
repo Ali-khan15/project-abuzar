@@ -5,9 +5,7 @@ const Hero = () => {
   return (
     <section id="home" className="min-h-screen bg-black flex items-center px-4 py-8">
       <div className="max-w-7xl mx-auto w-full">
-        {/* Mobile: Image first, then content */}
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
-          {/* Mobile: Image first - Full width */}
           <div className="flex justify-center w-full order-1 lg:order-2 lg:justify-end">
             <div className="w-full max-w-full lg:max-w-2xl">
               <img
@@ -18,7 +16,6 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Mobile: Content below - Center aligned */}
           <div className="text-center lg:text-left order-2 lg:order-1">
             <div className="mb-6 lg:mb-8">
               <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold leading-tight">
